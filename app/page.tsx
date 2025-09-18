@@ -109,19 +109,19 @@ function TabButton({ active, onClick, children }: { active?: boolean; onClick?: 
 
 function AboutSection() {
   return (
-    <section aria-labelledby="about-heading" className="scroll-mt-24">
+    <section aria-labelledby="about-heading" className="scroll-mt-24"> 
       <h3 id="about-heading" className="text-2xl font-semibold">About</h3>
       <div className="mt-4 grid gap-6 md:grid-cols-5">
         <div className="md:col-span-3">
           <article className="prose prose-neutral max-w-none">
             <p>
-              In the heart of central Gaza, Dina and Mohammad are keeping hope alive through a grassroots initiative that provides hot meals and clean drinking water to families in Al-Maghazi refugee camp. Even as the sound of heavy bombardments shakes their nights, their mornings are spent cooking and distributing food to neighbors, including those recently displaced from the north.
+              In the heart of central Gaza, Dina and Mohammad, a married couple and parents of 3 children have been investing their time and money since the beginning of the war to keep hope alive through a grassroots initiative that provides hot meals and clean drinking water to families in Al-Maghazi refugee camp in Gaza. Even as the sound of heavy bombardments shakes their nights, their mornings are spent cooking and distributing food to neighbors. 3 times a week they are cooking for 250 families or more. Beyond that, they have been providing boxes of food for displaced people who fled from the North with nothing and nowhere to be.
             </p>
             <p>
               In addition to hot meals, Mohammed and Dina buy basic products available on the market and distribute modest packages to families now living in the streets. This project grows directly from the ground, rooted in the commitment of local organizers who refuse to let their community face hunger and thirst alone.  About 60 families rely on the community kitchen for cooked meals, and the demand is growing daily.
             </p>
             <p>
-              Your support keeps this lifeline going. Every contribution helps feed families, sustain the resilience of Al-Maghazi residents, and preserve the sense of meaning and dignity for those carrying out this work.
+              Your support keeps this lifeline going. Every contribution helps feed families, sustain the resilience of Al-Maghazi Gaza residents, and preserve the sense of meaning and dignity for those carrying out this work.
             </p>
             <p>
               We are seeking both one-time and monthly donors to create a stable support network, and volunteers with fundraising experience who can help expand the project’s reach.
@@ -196,7 +196,7 @@ function DonateSection() {
     <section aria-labelledby="donate-heading" className="scroll-mt-24">
       <h3 id="donate-heading" className="text-2xl font-semibold">Donate today</h3>
       <p className="mt-2 text-neutral-700 max-w-2xl">
-        Your donation directly funds hot meals, clean water, and care packages for families in Al-Maghazi. Choose a platform below:
+        Your donation directly funds hot meals, clean water, and care packages for families in Al-Maghazi Gaza. Choose a platform below:
       </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 max-w-2xl">
