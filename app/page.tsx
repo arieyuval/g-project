@@ -115,13 +115,16 @@ function AboutSection() {
         <div className="md:col-span-3">
           <article className="prose prose-neutral max-w-none space-y-6">
             <p>
-              In the heart of central Gaza, Dina and Mohammad, a married couple are keeping hope alive through a grassroots initiative that provides hot meals, clean drinking water and basic supplies to families in Al-Maghazi Gaza refugee camp. From the beginning of the war, these parents of three young children devote time and effort to care for their community. They embody humanity and solidarity by refusing to let their neighbors go hungry and thirsty. Even as the sound of heavy bombardments shakes their nights, their mornings are spent cooking and distributing food. At least three times a week, they cook hot meals for the entire neighborhood and distribute packages with necessities for those in need. Already more than 100 families rely on them for cooked meals and supplies, but now that number increases daily with more and more displaced families seeking safe place in their neighborhood. Dina and Mohammad need your help  to help those who were left homeless and without means of survival.
+            In the heart of central Gaza, Dina and Mohammad are keeping hope alive through a grassroots initiative that provides hot meals, clean drinking water and basic supplies to families in Al-Maghazi refugee camp. From the beginning of the war, these parents of three young children devote time and effort to care for their community. They embody humanity and solidarity by refusing to let their neighbors go hungry and thirsty. Even as the sound of heavy bombardments shakes their nights, their mornings are spent cooking and distributing food. 
             </p>
             <p>
-              Your support keeps this lifeline going. Every contribution helps feed families, sustain the resilience of the Al-Maghazi Gaza community, and preserve the sense of meaning and dignity for those carrying out this work. 
+            At least three times a week, they cook hot meals three for the entire neighborhood and distribute packages with necessities for those in need. Already more than 100 families rely on them for cooked meals and supplies, but now that number increases daily with more and more displaced families seeking safe place in their neighborhood. Dina and Mohammad need your help  to help those who were left homeless and without means of survival. 
             </p>
             <p>
-              We are seeking both one-time and monthly donors to create a stable support network, and volunteers who can help fundraising to expand the project’s reach. Together, we can ensure that Dina and Mohammad’s mission not only survives but thrives—providing nourishment, water, and hope where they are most desperately needed.
+            Your support keeps this lifeline going. Every contribution helps feed families, sustain the resilience of the Al-Maghazi community, and preserve the sense of meaning and dignity for those carrying out this work. 
+            </p>
+            <p>
+            We are seeking both one-time and monthly donors to create a stable support network, and volunteers who can help fundraising to expand the project’s reach. Together, we can ensure that Dina and Mohammad’s mission not only survives but thrives—providing nourishment, water, and hope where they are most desperately needed. 
             </p>
           </article>
           <div className="mt-6">
@@ -162,57 +165,33 @@ function AboutSection() {
 function GallerySection() {
   // Place your photos into /public/gallery/ and rename below
   const images = [
-    "/gallery/IMG-20250919-WA0026.jpg",
-    "/gallery/img3.jpg",
-    "/gallery/IMG-20250919-WA0045.jpg",
-    "/gallery/IMG-20250919-WA0041.jpg",
-    "/gallery/IMG-20250919-WA0015.jpg",
-    "/gallery/IMG-20250919-WA0036.jpg",
-    "/gallery/IMG-20250919-WA0046.jpg",
-    "/gallery/img5.jpg",
-    "/gallery/IMG-20250919-WA0013.jpg",
-    "/gallery/IMG-20250919-WA0040.jpg",
-    "/gallery/IMG-20250919-WA0027.jpg",
-    "/gallery/IMG-20250919-WA0043.jpg",
-    "/gallery/img6.jpg",
-    "/gallery/IMG-20250919-WA0022.jpg",
-    "/gallery/IMG-20250919-WA0033.jpg",
+    "/gallery/top.jpg",
+    "/gallery/IMG-20250920-WA0013.jpg",
     "/gallery/img9.jpg",
-    "/gallery/IMG-20250919-WA0020.jpg",
-    "/gallery/IMG-20250919-WA0023.jpg",
-    "/gallery/IMG-20250919-WA0049.jpg",
-    "/gallery/IMG-20250919-WA0031.jpg",
-    "/gallery/IMG-20250919-WA0030.jpg",
-    "/gallery/IMG-20250919-WA0035.jpg",
     "/gallery/IMG-20250919-WA0025.jpg",
-    "/gallery/IMG-20250919-WA0047.jpg",
+    "/gallery/IMG-20250920-WA0007.jpg",
+    "/gallery/IMG-20250920-WA0021.jpg",
+    "/gallery/IMG-20250920-WA0009.jpg",
+    "/gallery/IMG-20250919-WA0017.jpg",
     "/gallery/img10.jpg",
     "/gallery/IMG-20250919-WA0019.jpg",
-    "/gallery/img4.jpg",
+    "/gallery/IMG-20250920-WA0008.jpg",
+    "/gallery/img5.jpg",
+    "/gallery/IMG-20250920-WA0017.jpg",
     "/gallery/IMG-20250919-WA0042.jpg",
-    "/gallery/IMG-20250919-WA0016.jpg",
-    "/gallery/img7.jpg",
-    "/gallery/IMG-20250919-WA0050.jpg",
-    "/gallery/IMG-20250919-WA0024.jpg",
-    "/gallery/IMG-20250919-WA0048.jpg",
-    "/gallery/img2.jpg",
-    "/gallery/IMG-20250919-WA0051.jpg",
-    "/gallery/IMG-20250919-WA0039.jpg",
-    "/gallery/IMG-20250919-WA0021.jpg",
-    "/gallery/IMG-20250919-WA0044.jpg",
-    "/gallery/img1.jpg",
-    "/gallery/IMG-20250919-WA0017.jpg",
-    "/gallery/IMG-20250919-WA0037.jpg",
-    "/gallery/IMG-20250919-WA0038.jpg",
-    "/gallery/IMG-20250919-WA0052.jpg",
-    "/gallery/IMG-20250919-WA0032.jpg",
-    "/gallery/IMG-20250919-WA0014.jpg",
-    "/gallery/IMG-20250919-WA0028.jpg",
-    "/gallery/IMG-20250919-WA0041.jpg",
     "/gallery/IMG-20250919-WA0029.jpg",
-    "/gallery/IMG-20250919-WA0018.jpg",
+    "/gallery/IMG-20250919-WA0031.jpg",
+    "/gallery/img2.jpg",
+    "/gallery/IMG-20250920-WA0006.jpg",
+    "/gallery/IMG-20250919-WA0016.jpg",
+    "/gallery/IMG-20250920-WA0014.jpg",
     "/gallery/img8.jpg",
-    "/gallery/IMG-20250919-WA0042.jpg",
+    "/gallery/IMG-20250919-WA0034.jpg",
+    "/gallery/img4.jpg",
+    "/gallery/IMG-20250920-WA0022.jpg",
+    "/gallery/IMG-20250919-WA0013.jpg",
+    "/gallery/IMG-20250920-WA0015.jpg",
+
 
   ];
 
