@@ -140,7 +140,7 @@ function AboutSection() {
           <div className="rounded-2xl border border-neutral-200 p-4 bg-white">
             <h4 className="font-semibold">Impact snapshot</h4>
             <ul className="mt-2 text-sm text-neutral-700 list-disc ml-5">
-              <li>~60 families served with cooked meals (and growing)</li>
+              <li>Over 100 families served with cooked meals (and growing)</li>
               <li>Clean drinking water distribution</li>
               <li>Basic goods packages for families living in the streets</li>
             </ul>
