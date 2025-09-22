@@ -220,13 +220,13 @@ function DonateSection() {
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 max-w-2xl">
         <a
-          href="https://www.paypal.com/paypalme/free681?country.x=BE&locale.x=en_US&fbclid=IwY2xjawM1iWtleHRuA2FlbQIxMQABHk51z4HCDwDGh517Q7wpwjrtrFImMq4XGcnwEiFMmo10f7KjQIXSjO9W4zTc_aem_5g-o2jFDI40szLbO4uBIyQ"
+          href="https://chuffed.org/project/150508-gaza-community-kitchen "
           target="_blank"
           rel="noreferrer noopener"
           className="block rounded-2xl border border-neutral-200 bg-white p-5 hover:bg-purple-50"
         >
-          <h4 className="font-semibold">PayPal</h4>
-          <p className="text-sm text-neutral-600 mt-1">Donate securely via PayPal.</p>
+          <h4 className="font-semibold">Chuffed</h4>
+          <p className="text-sm text-neutral-600 mt-1">Support the fundraiser on Chuffed.</p>
           <p className="mt-3 text-sm text-neutral-500">Opens in a new tab ↗</p>
         </a>
 
