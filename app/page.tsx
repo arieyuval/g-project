@@ -215,7 +215,7 @@ function DonateSection() {
     <section aria-labelledby="donate-heading" className="scroll-mt-24">
       <h3 id="donate-heading" className="text-2xl font-semibold">Donate today</h3>
       <p className="mt-2 text-neutral-700 max-w-2xl">
-        Your donation directly funds hot meals, clean water, and care packages for families in Al-Maghazi Gaza. Choose a platform below:
+        Your donation directly funds hot meals, clean water, and care packages for families in Al-Maghazi Gaza.
       </p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 max-w-2xl">
@@ -230,7 +230,7 @@ function DonateSection() {
           <p className="mt-3 text-sm text-neutral-500">Opens in a new tab ↗</p>
         </a>
 
-        <a
+        {/* <a
           href="https://gofund.me/8cb3284a0"
           target="_blank"
           rel="noreferrer noopener"
@@ -239,7 +239,7 @@ function DonateSection() {
           <h4 className="font-semibold">GoFundMe</h4>
           <p className="text-sm text-neutral-600 mt-1">Support the fundraiser on GoFundMe.</p>
           <p className="mt-3 text-sm text-neutral-500">Opens in a new tab ↗</p>
-        </a>
+        </a> */}
       </div>
     </section>
   );
