@@ -628,9 +628,13 @@ export default function GazaProjectSite() {
       <header className="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-neutral-200">
         <div className="mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <span className="inline-block rounded-xl bg-purple-100 p-2" aria-hidden>
-              <svg viewBox="0 0 24 24" className="h-5 w-5"><path fill="currentColor" d="M12 2a7 7 0 0 1 7 7c0 5.25-5.1 9.3-6.53 10.33a1 1 0 0 1-1.14 0C9.9 18.3 4.9 14.25 4.9 9A7 7 0 0 1 12 2Z"/></svg>
-            </span>
+            <Image
+              src="/logo.jpg"   // update with your file name
+              alt="Gaza Community Kitchen Logo"
+              width={60}        // adjust size as needed
+              height={60}
+              className="rounded-xl"
+            />
             <div>
               <h1 className="text-lg font-semibold leading-tight">Gaza Community Kitchen</h1>
               <p className="text-xs text-neutral-600">Hot meals, clean water, real hope</p>
